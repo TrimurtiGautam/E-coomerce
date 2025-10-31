@@ -1,7 +1,17 @@
 import React from 'react'
-
+import Hero from '../Components/Hero/hero.jsx'
+import Popular from '../Components/Popular/Popular.jsx'
+import Offers from '../Components/Offers/Offers.jsx'
+import NewCollections from '../Components/NewCollections/NewCollections.jsx'
+import NewsLetter from '../Components/NewsLetter/NewsLetter.jsx'
 export default function Shop() {
   return (
-    <div>Shop</div>
+    <div>
+      <Hero/>
+      <Popular/>
+      <Offers/>
+      <NewCollections />
+      <NewsLetter/>
+    </div>
   )
 }
